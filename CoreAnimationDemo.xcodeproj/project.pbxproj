@@ -14,6 +14,8 @@
 		D211FCAD1FD7E47C00E6EFB6 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D211FCAA1FD7E47C00E6EFB6 /* 2.png */; };
 		D211FCAE1FD7E47C00E6EFB6 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = D211FCAB1FD7E47C00E6EFB6 /* 0.png */; };
 		D211FCB11FD7ECA900E6EFB6 /* FPSVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D211FCB01FD7ECA900E6EFB6 /* FPSVC.m */; };
+		D25E75861FD8D2BA00D23D38 /* UIViewAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D25E75851FD8D2BA00D23D38 /* UIViewAnimationVC.m */; };
+		D25E75891FD8E70900D23D38 /* UIViewAnimationVC_1.m in Sources */ = {isa = PBXBuildFile; fileRef = D25E75881FD8E70900D23D38 /* UIViewAnimationVC_1.m */; };
 		D2D34C271FD69EB9009727BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D34C261FD69EB9009727BE /* main.m */; };
 		D2D34C2A1FD69EB9009727BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D34C291FD69EB9009727BE /* AppDelegate.m */; };
 		D2D34C2D1FD69EB9009727BE /* CABasicAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D34C2C1FD69EB9009727BE /* CABasicAnimationVC.m */; };
@@ -53,6 +55,10 @@
 		D211FCAB1FD7E47C00E6EFB6 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
 		D211FCAF1FD7ECA900E6EFB6 /* FPSVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSVC.h; sourceTree = "<group>"; };
 		D211FCB01FD7ECA900E6EFB6 /* FPSVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPSVC.m; sourceTree = "<group>"; };
+		D25E75841FD8D2BA00D23D38 /* UIViewAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAnimationVC.h; sourceTree = "<group>"; };
+		D25E75851FD8D2BA00D23D38 /* UIViewAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimationVC.m; sourceTree = "<group>"; };
+		D25E75871FD8E70900D23D38 /* UIViewAnimationVC_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAnimationVC_1.h; sourceTree = "<group>"; };
+		D25E75881FD8E70900D23D38 /* UIViewAnimationVC_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimationVC_1.m; sourceTree = "<group>"; };
 		D2D34C221FD69EB9009727BE /* CoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D34C261FD69EB9009727BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2D34C281FD69EB9009727BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -130,6 +136,10 @@
 				D211FCA71FD7E0CC00E6EFB6 /* CATransitionVC.m */,
 				D211FCAF1FD7ECA900E6EFB6 /* FPSVC.h */,
 				D211FCB01FD7ECA900E6EFB6 /* FPSVC.m */,
+				D25E75841FD8D2BA00D23D38 /* UIViewAnimationVC.h */,
+				D25E75851FD8D2BA00D23D38 /* UIViewAnimationVC.m */,
+				D25E75871FD8E70900D23D38 /* UIViewAnimationVC_1.h */,
+				D25E75881FD8E70900D23D38 /* UIViewAnimationVC_1.m */,
 				D211FCA91FD7E47C00E6EFB6 /* 1.png */,
 				D211FCAA1FD7E47C00E6EFB6 /* 2.png */,
 				D211FCAB1FD7E47C00E6EFB6 /* 0.png */,
@@ -305,11 +315,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25E75861FD8D2BA00D23D38 /* UIViewAnimationVC.m in Sources */,
 				D2D34C2D1FD69EB9009727BE /* CABasicAnimationVC.m in Sources */,
 				D211FCA81FD7E0CC00E6EFB6 /* CATransitionVC.m in Sources */,
 				D211FCB11FD7ECA900E6EFB6 /* FPSVC.m in Sources */,
 				D211FCA51FD7D92300E6EFB6 /* CAAnimationGroupVC.m in Sources */,
 				D2D34C2A1FD69EB9009727BE /* AppDelegate.m in Sources */,
+				D25E75891FD8E70900D23D38 /* UIViewAnimationVC_1.m in Sources */,
 				D2D34C271FD69EB9009727BE /* main.m in Sources */,
 				D211FCA21FD7D7E100E6EFB6 /* CAKeyframeAnimationVC.m in Sources */,
 			);
