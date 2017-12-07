@@ -73,7 +73,7 @@
     //设置其他动画属性
     basicAnimation.duration=5.0;//动画时间5秒
 //    basicAnimation.repeatCount=HUGE_VALF;//设置重复次数,HUGE_VALF可看做无穷大，起到循环动画的效果
-    basicAnimation.removedOnCompletion=NO;//运行一次是否移除动画
+    basicAnimation.removedOnCompletion=NO;//运行一次是否移除动画 需要设置为NO的两种情况：1，动画完成后，还需要通过动画名称重新获取动画 2，动画设置了无线循环  这里属于前者
     basicAnimation.delegate=self;
     //存储当前位置在动画结束后使用
     [basicAnimation setValue:[NSValue valueWithCGPoint:location] forKey:@"KCBasicAnimationLocation"];
@@ -96,7 +96,7 @@
     basicAnimation.duration=6.0;
     basicAnimation.autoreverses=true;//旋转后再旋转到原来的位置
     basicAnimation.repeatCount=HUGE_VALF;//设置无限循环
-    basicAnimation.removedOnCompletion=NO;
+    basicAnimation.removedOnCompletion=NO;//需要设置为NO的两种情况：1，动画完成后，还需要通过动画名称重新获取动画 2，动画设置了无线循环  这里属于前者
     
     //4.添加动画到图层，注意key相当于给动画进行命名，以后获得该动画时可以使用此名称获取
     [_layer addAnimation:basicAnimation forKey:@"KCBasicAnimation_Rotation"];
